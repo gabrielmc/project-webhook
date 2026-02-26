@@ -294,7 +294,7 @@ docker ps
 Altere a porta no `application.yml`:
 ```yaml
 server:
-  port: 8081
+  port: 9080
 ```
 
 **Swagger não abre:**
