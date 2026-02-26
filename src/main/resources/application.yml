@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: products-api
+
+  #datasource:
+    #url: jdbc:postgresql://localhost:5432/demo_db
+    #username: postgres
+    #password: postgres
+    #driver-class-name: org.postgresql.Driver
+
+  #jpa:
+    #hibernate:
+      #ddl-auto: update
+    #show-sql: true
+    #properties:
+     # hibernate:
+        #format_sql: true
+  datasource:
+    url: jdbc:h2:mem:demo_db
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    database-platform: org.hibernate.dialect.H2Dialect    #dialect: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 9080
+
+webhook:
+  url: https://webhook.site/seu-uuid-aqui
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+    tags-sorter: alpha
+  show-actuator: false
