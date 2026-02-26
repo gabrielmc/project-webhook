@@ -1,4 +1,4 @@
-package com.wehook.web.exception;
+package com.webhook.web.exception;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {

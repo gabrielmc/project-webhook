@@ -1,4 +1,4 @@
-package com.wehook.web.webhook;
+package com.webhook.web.webhook;
 
 @Service
 @Slf4j

@@ -1,4 +1,4 @@
-package com.wehook.web.dto.response;
+package com.webhook.web.dto.response;
 
 @Data
 @Builder

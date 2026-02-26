@@ -1,4 +1,4 @@
-package com.wehook.web.config;
+package com.webhook.web.config;
 
 import io.swagger.v3.oas.models.*;
 import io.swagger.v3.oas.models.info.*;

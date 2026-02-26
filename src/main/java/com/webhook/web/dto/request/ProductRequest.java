@@ -1,4 +1,4 @@
-package com.wehook.web.dto.request;
+package com.webhook.web.dto.request;
 
 @Data
 @Schema(description = "Dados para criação/atualização de produto")

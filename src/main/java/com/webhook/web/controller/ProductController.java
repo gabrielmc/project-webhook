@@ -1,4 +1,4 @@
-package com.wehook.web.controller;
+package com.webhook.web.controller;
 
 @RestController
 @RequestMapping("/api/v1/products")

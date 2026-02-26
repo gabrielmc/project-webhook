@@ -1,4 +1,4 @@
-package com.wehook.web.exception;
+package com.webhook.web.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {

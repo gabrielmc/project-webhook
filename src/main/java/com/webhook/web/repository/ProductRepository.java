@@ -1,4 +1,4 @@
-package com.wehook.web.repository;
+package com.webhook.web.repository;
 
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Long> {

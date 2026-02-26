@@ -1,4 +1,4 @@
-package com.wehook.web.service;
+package com.webhook.web.service;
 
 @Service
 @RequiredArgsConstructor

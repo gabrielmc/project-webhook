@@ -1,4 +1,4 @@
-package com.wehook.web.entity;
+package com.webhook.web.entity;
 
 @Entity
 @Table(name = "products")
